@@ -1,0 +1,46 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+img, 
+embed, 
+object, 
+video {
+	max-width: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.row-last {
+	text-align: center;
+	display: flex;
+	overflow: auto;
+}
+
+@media screen and (max-width: 850px) {
+	.row-last {
+		flex-wrap: wrap;
+	}
+}
